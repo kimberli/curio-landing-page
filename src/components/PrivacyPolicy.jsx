@@ -15,20 +15,20 @@ const PrivacyPolicy = () => {
                     <h1 className="text-xl mb-4">Curio Privacy Policy</h1>
                     <p className="text-xs mb-4">Last updated: October 29, 2024</p>
 
-                    <h2 className="font-bold my-2">Information We Collect</h2>
+                    <h2 className="font-bold my-2">Information we collect</h2>
                     <p>We collect minimal information necessary to provide our service:</p>
                     <ul className="list-disc list-inside">
                         <li>Email addresses for our waitlist</li>
                         <li>Basic usage analytics to improve our service</li>
                     </ul>
 
-                    <h2 className="font-bold my-2">How We Use Your Information</h2>
+                    <h2 className="font-bold my-2">How we use your information</h2>
                     <p>We use your email address solely to:</p>
                     <ul className="list-disc list-inside">
                         <li>Keep you updated about Curio's launch</li>
                     </ul>
 
-                    <h2 className="font-bold my-2">Data Protection</h2>
+                    <h2 className="font-bold my-2">Data protection</h2>
                     <p>We implement security measures to protect your personal information and never sell your data to third parties.</p>
 
                     <h2 className="font-bold my-2">Your Rights</h2>
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
                         <li>Opt-out of communications</li>
                     </ul>
 
-                    <h2 className="font-bold my-2">Contact Us</h2>
+                    <h2 className="font-bold my-2">Contact us</h2>
                     <p>For any privacy-related questions, please contact us at <a href="mailto:hello@curi.ooo" className="text-success-600 hover:text-success-700">hello@curi.ooo</a></p>
                 </div>
             </div>
