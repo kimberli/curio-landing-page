@@ -5,7 +5,7 @@ function App() {
     return (
         <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8 text-gray-900 font-serif">
             <div className="max-w-2xl mx-auto text-center">
-                <Logo className="mx-auto mb-2" />
+                <Logo />
                 <h1 className="text-xl text-gray-700 mb-4">
                     Curate your inspirations
                 </h1>

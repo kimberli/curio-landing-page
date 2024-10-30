@@ -1,9 +1,11 @@
-export default function Logo({ className = "" }) {
+import curioDark from '/curio_dark.svg'
+
+export default function Logo() {
     return (
         <img
-            src="/curio_dark.svg"
-            alt="Curio Logo"
-            className={`w-64 h-auto ${className}`}
+            src={curioDark}
+            alt="Curio"
+            className={`w-64 h-auto mx-auto mb-2`}
         />
     )
 } 
