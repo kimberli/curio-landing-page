@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Navigate, Routes, Route } from 'react-router-dom';
 import EmailForm from './components/EmailForm'
 import Logo from './components/Logo'
 import PrivacyPolicy from './components/PrivacyPolicy';
@@ -8,7 +8,14 @@ function App() {
     const redirect = searchParams.get('redirect');
 
     if (redirect) {
-        return <Router basename=""><Routes><Route path="/" element={<Navigate to={redirect} />} /></Routes></Router>
+        return (
+            <Router basename="">
+                <Routes>
+                    <Route path="/privacy" element={<PrivacyPolicy />} />
+                    <Route path="/" element={<Navigate to={redirect} />} />
+                </Routes>
+            </Router>
+        );
     }
 
     return (
