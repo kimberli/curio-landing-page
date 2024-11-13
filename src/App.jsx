@@ -5,7 +5,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
     return (
-        <Router>
+        <Router basename="">
             <Routes>
                 <Route path="/privacy" element={<PrivacyPolicy />} />
                 <Route path="/" element={
