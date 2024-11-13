@@ -4,6 +4,13 @@ import Logo from './components/Logo'
 import PrivacyPolicy from './components/PrivacyPolicy';
 
 function App() {
+    const searchParams = new URLSearchParams(window.location.search);
+    const redirect = searchParams.get('redirect');
+
+    if (redirect) {
+        return <Router basename=""><Routes><Route path="/" element={<Navigate to={redirect} />} /></Routes></Router>
+    }
+
     return (
         <Router basename="">
             <Routes>
